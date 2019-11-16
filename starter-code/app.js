@@ -56,3 +56,6 @@ app.use('/', index);
 
 
 module.exports = app;
+
+
+app.listen(process.env.PORT, () => console.log("running"));
